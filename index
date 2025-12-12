@@ -1,0 +1,176 @@
+<!--
+Student Name: Helen Fader
+File Name: index.html
+Final Project: Fall 2025
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Helen Fader – progressing business data analyst and Information Systems student.">
+
+  <title>Helen Fader | Business Data Analyst in Progress</title>
+
+  <!-- HF Fox Logo as favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main-content">Skip to main content</a>
+
+  <div id="wrapper">
+
+    <!-- HEADER HERO -->
+    <header>
+      <div class="hero">
+        <div class="hero-text">
+          <h1 id="greeting">Hello, I’m Helen</h1>
+          <h2>Progressing Business Data Analyst &amp; Information Systems Student</h2>
+          <p>
+            Organized, hard-working, and driven to grow in data analytics and technology.
+            I enjoy helping people, understanding their needs, and turning information into
+            practical solutions that support better decisions.
+          </p>
+          <div class="hero-meta">
+            <span><strong>Location:</strong> Leola, South Dakota (from Atlanta, GA)</span>
+            <span><strong>Current Role:</strong> Mobile Expert at T-Mobile</span>
+          </div>
+        </div>
+
+        <!-- PHOTO NEXT TO TEXT -->
+        <div class="hero-media">
+          <img src="images/helen-photo.jpg" alt="Portrait of Helen Fader" class="hero-image">
+        </div>
+      </div>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav class="site-nav" aria-label="Primary">
+      <div class="nav-inner">
+        <a href="index.html" class="brand">
+          <!-- HF fox logo on page (small icon) -->
+          <img src="images/favicon.ico" alt="Helen Fader HF Fox Logo" class="site-logo">
+
+          <div class="brand-text">
+            <span class="name">Helen Fader</span>
+            <span class="role">Business Data Analyst in Progress</span>
+          </div>
+        </a>
+
+        <!-- HAMBURGER BUTTON -->
+        <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+          <span></span>
+        </button>
+
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About &amp; Experience</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main id="main-content">
+      <section aria-labelledby="home-overview">
+        <div class="section-header">
+          <h2 id="home-overview">At a Glance</h2>
+          <p>
+            I’m building a career in data and technology while working in customer-facing roles.
+            Below is a quick snapshot of what I bring to a team.
+          </p>
+        </div>
+
+        <div class="summary-grid">
+          <article class="card">
+            <h3>Accountability</h3>
+            <p>
+              Dependable, punctual, and detail-oriented. I consistently meet deadlines and follow
+              through on my responsibilities in both work and school.
+            </p>
+            <div class="chip-row">
+              <span class="chip">Reliable</span>
+              <span class="chip">Organized</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Communication</h3>
+            <p>
+              Experience helping customers, answering questions clearly, and listening first.
+              I aim to make complex information simple and easy to understand.
+            </p>
+            <div class="chip-row">
+              <span class="chip">Customer Service</span>
+              <span class="chip">Team Support</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Technical Growth</h3>
+            <p>
+              Skilled in Microsoft Office and data entry, and currently strengthening my skills in
+              Information Systems, analytics tools, and business technology.
+            </p>
+            <div class="chip-row">
+              <span class="chip">Microsoft Office</span>
+              <span class="chip">Data Entry</span>
+              <span class="chip">IS Major</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- IMAGE STRIP (3 HORIZONTAL IMAGES) -->
+      <section class="image-strip" aria-labelledby="image-strip-heading">
+        <h3 id="image-strip-heading">Awards</h3>
+        <p>
+          These images represent my awards!
+        </p>
+
+        <div class="image-row">
+          <figure>
+            <img src="images/helen-cert.png" alt="Certificate of completion for Power BI course">
+            <figcaption>Certification</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/helen-diploma.png" alt="Associate of Science diploma">
+            <figcaption>Diploma</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/helen-honors.png" alt="Phi Theta Kappa honors certificate">
+            <figcaption>Phi Theta Kappa Honors</figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-inner">
+        <div>
+          <p>&copy; 2025 Helen Fader. All rights reserved.</p>
+        </div>
+        <div class="footer-meta">
+          <span>Email:
+            <a href="mailto:faderh235@gmail.com">faderh235@gmail.com</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- JavaScript (Hamburger Menu) -->
+  <script src="scripts/script.js"></script>
+</body>
+</html>
