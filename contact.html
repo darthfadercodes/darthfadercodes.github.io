@@ -1,0 +1,154 @@
+<!--
+Student Name: Helen Fader
+File Name: contact.html
+Final Project: Fall 2025
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Helen Fader for opportunities, questions, or collaboration.">
+
+  <title>Contact | Helen Fader</title>
+
+  <!-- HF Fox Logo as favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main-content">Skip to main content</a>
+
+  <div id="wrapper">
+    <header>
+      <div class="hero">
+        <div class="hero-text">
+          <h1>Let’s Connect</h1>
+          <h2>Open to opportunities, learning, and new challenges.</h2>
+          <p>
+            If you’d like to talk about roles, projects, or just have questions about my
+            background, feel free to reach out using the form below.
+          </p>
+        </div>
+        <div class="hero-media">
+          <img src="images/helen-photo.jpg" alt="Portrait of Helen Fader" class="hero-image">
+        </div>
+      </div>
+    </header>
+
+    <nav class="site-nav" aria-label="Primary">
+      <div class="nav-inner">
+        <a href="index.html" class="brand">
+          <!-- HF fox logo on page -->
+          <img src="images/favicon.ico" alt="Helen Fader HF Fox Logo" class="site-logo">
+
+          <div class="brand-text">
+            <span class="name">Helen Fader</span>
+            <span class="role">Business Data Analyst in Progress</span>
+          </div>
+        </a>
+
+        <!-- HAMBURGER BUTTON -->
+        <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+          <span></span>
+        </button>
+
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About &amp; Experience</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main id="main-content">
+      <section id="contact-intro" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact Information</h2>
+        <p>
+          You can message me directly using the form or reach out by email.
+          I’ll do my best to respond as soon as I can.
+        </p>
+      </section>
+
+      <section class="contact-details" aria-label="Direct contact details">
+        <p>Email:
+          <a class="contact-link" href="mailto:faderh235@gmail.com">faderh235@gmail.com</a>
+        </p>
+        <p>Location: Leola, South Dakota</p>
+      </section>
+
+      <section id="contact-form" aria-label="Contact form">
+        <form id="contactForm" action="#" method="post" novalidate>
+          <fieldset>
+            <legend>Your Information</legend>
+
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" required>
+
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" name="phone" id="phone">
+          </fieldset>
+
+          <fieldset>
+            <legend>Reason for Reaching Out</legend>
+
+            <p>Select one option:</p>
+
+            <label>
+              <input type="radio" name="reason" value="opportunity">
+              Job or internship opportunity
+            </label>
+
+            <label>
+              <input type="radio" name="reason" value="networking">
+              Networking / informational conversation
+            </label>
+
+            <label>
+              <input type="radio" name="reason" value="question">
+              Question about my experience or projects
+            </label>
+
+            <label>
+              <input type="radio" name="reason" value="other">
+              Other
+            </label>
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+          </fieldset>
+
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div>
+          <p>&copy; 2025 Helen Fader. All rights reserved.</p>
+        </div>
+        <div class="footer-meta">
+          <span>Email:
+            <a href="mailto:faderh235@gmail.com">faderh235@gmail.com</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
